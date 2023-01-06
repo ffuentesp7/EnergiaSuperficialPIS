@@ -1,0 +1,34 @@
+Package: water
+Title: Actual Evapotranspiration with Energy Balance Models
+Version: 0.8.4
+Date: 2022-02-15
+Authors@R: c(
+	person("Guillermo Federico", "Olmedo", role = c("cre", "aut"), email = "guillermo.olmedo@gmail.com", comment=c(ORCID="0000-0002-4482-3266")),
+	person("Samuel", "Ortega-Farías", role = "aut"),
+	person("David", "Fonseca-Luengo", role = "aut"),
+	person("Daniel", "de la Fuente-Sáiz", role = "aut"),
+	person("Fernando", "Fuentes-Peñailillo", role = "aut"),
+	person("María Victoria", "Munafó", role = "ctb"))
+Author: Guillermo Federico Olmedo [cre, aut] (<https://orcid.org/0000-0002-4482-3266>),
+    Samuel Ortega-Farías [aut],
+    David Fonseca-Luengo [aut], Daniel de la Fuente-Sáiz [aut], 
+    Fernando Fuentes-Peñailillo [aut], María Victoria Munafó [ctb]
+Maintainer: Guillermo Federico Olmedo <guillermo.olmedo@gmail.com>
+Description: Tools and functions to calculate actual Evapotranspiration
+    using surface energy balance models.
+Depends:
+    R (>= 3.4),
+    raster (>= 2.5),
+    sp (>= 1.2),
+    rgdal (>= 1.2)
+Imports:
+License: GPL (>= 2)
+URL: https://midraed.github.io/water/
+BugReports: https://github.com/midraed/water/issues/
+LazyData: true
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+RoxygenNote: 7.1.2
